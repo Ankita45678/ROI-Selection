@@ -24,6 +24,7 @@ MobileNet Citation:
     primaryClass={cs.CV}
 }
 
+
 SSD Citation:
 @article{Liu_2016,
    title={SSD: Single Shot MultiBox Detector},
