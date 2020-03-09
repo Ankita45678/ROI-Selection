@@ -7,7 +7,7 @@ We will use the MobileNet SSD + deep neural network (dnn) module in OpenCV to bu
 Command for running and testing the model: 
 python deep_learning_object_detection.py \
 	--prototxt MobileNetSSD_deploy.prototxt.txt \
-	--model MobileNetSSD_deploy.caffemodel --image images/example_01.jpeg 
+	--model MobileNetSSD_deploy.caffemodel --image images/example_05.jpg 
   
  In Image directory, store the input images that you want to test.
  1. After firing this commnad, different objects present in the image will be detected and classified with corresponding bounding box around it. The recognised object's class is one of the 20 classes mentioned above.
